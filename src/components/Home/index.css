@@ -1,0 +1,62 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.HomeParentDiv{width: 100vw; height: 100vh;
+
+padding: 90px;
+position: relative;
+inset: 0;
+overflow: hidden;
+
+}
+
+.Homebg{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+background-image: url('https://1.bp.blogspot.com/-mJLtxiMUAhQ/X6jjGPLwe9I/AAAAAAAHV2Y/ma3lZDYJJDMKTtyJfo8OOEnmq3lP074cACLcBGAsYHQ/s1600/Beej-Patakha%2B%25283%2529.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+filter: blur(5px);
+z-index: -1;
+
+
+}
+
+
+.HomeChildFstDiv{
+    position: relative;
+    z-index: 1;
+    inset: 0;
+    border: 1px solid black;
+    padding:20px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+
+    
+}
+
+.HomeChildFstDiv h1{text-align: center; font-family: Arial, Helvetica, sans-serif;}
+.HomeChildFstDiv p{font-weight: 400; font-size: 19px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.HomeLinkComp{text-decoration: none; cursor: pointer;}
+
+.HomeBtn{
+    cursor: pointer; padding: 20px; border-radius: 10px;   
+    background-image: linear-gradient(to right,#DA531C,white);
+font-size: 18px; border: none; outline: none; box-shadow: 3px 3px 10px black;
+    color: black;}
+
+.HomeBtn:hover{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.3),#DA531C,rgba(0,0,0,0.3)); color: white;
+}
+
+    .HomeBtnDiv{text-align: center; margin-top: 20px;}

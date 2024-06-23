@@ -1,0 +1,120 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.BuyParerntDiv{width: 100vw; min-height: 100vh;}
+
+.BuyHeaderDiv{
+    width: 100%;
+    max-height: 300px;
+    background-image: url('https://1.bp.blogspot.com/-Pq8SPkXTPMI/X6jjGOUivfI/AAAAAAAHV2U/geKsAKFC8U0neEPc_i6h8ZGs5L2G9-xiQCLcBGAsYHQ/s1600/Beej-Patakha+%284%29.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.BuyLogoDiv{background-color: rgba(0,0,0,0.3); padding:10px 40px;}
+.BuyLogoDiv h1{color: white;  font-weight: bold;}
+
+.BuyH1Btn{margin-left: 50px;}
+
+.BuyH1Btn h1{color: white; }
+
+.BuyH1Btn button{margin-top: 20px; padding: 10px 20px; background-color: #FFFFFF; color: #D75428; font-weight: bold; border: none; cursor: pointer; outline: none;}
+
+
+.BuyMidDiv{padding: 0px 80px; margin-top: 20px;}
+
+
+
+.BuyAboutH1Div{display: flex; align-items: center;     text-align: center;} 
+
+    .BuyAboutH1Div h1{margin:0px 70px; color: orange;}
+
+    
+    .BuyProductDesc{text-align: center; margin-top: 20px;}
+    
+    .BuyHr{width: 100%; border: 3px solid orange; }
+    .BuyOurProductsH1{display: flex;  align-items: center; margin-top: 20px;}
+    .BuyOurProductsH1 h1{margin:0px 70px; white-space: nowrap; color: orange;}
+
+
+    .BuyCards{display: grid; gap: 10px; grid-template-columns: repeat(2,1fr); grid-template-rows: 470px; }
+
+
+    .Buyimg{width: 100%; object-fit: cover; max-height:400px;}
+    .htBtnDiv{display: flex; justify-content: space-between; align-items: center; margin-top: 10px;}
+    .BuyParentCard{padding: 10px; border: 1px solid black;}
+    .quickViewClass{cursor: pointer; padding: 10px 15px; background-color: rgb(239, 21, 21); color: white; border: none; outline: none;}
+
+
+.BuyBottom{border: 3px solid rgb(232, 218, 74); background-color: rgb(31, 165, 100); margin-top: 40px; display: flex; justify-content: space-between;align-items: center; padding:20px; overflow: hidden;}
+
+.bottomImg{width: 40px; height: 40px; object-fit: cover;}
+
+.followUs{color: rgb(232, 218, 74);}
+.bottomHSpan{display: flex; flex-direction: column; align-items: center;}
+.bottomFollowSpan{margin-top: 10px;}
+.bottomFollowSpan span{margin:0px 10px;}
+
+
+
+
+.PopupMain{
+
+
+display: flex;
+justify-content:space-around;
+gap: 1em;
+background-color: white;
+}
+
+
+.popupImg{max-width: 350px; max-height: 350px; object-fit: cover;}
+.popupImgCards{max-width: 70px; max-height: 70px; object-fit: cover; margin:0px 10px; outline: 2px dotted orangered;}
+.popupAllCardImgs{display: flex; margin-top: 30px; max-width: 400px;}
+
+
+
+.btnWithH1{display: flex; justify-content: space-between; align-items: center;}
+.dottedBorder{border: 1px dotted orangered;}
+.starLi{list-style: none; white-space: nowrap;}
+
+.closeBtn{width: 40px; height: 40px; background-color: transparent; margin-left: 10px; outline: none; border: none; cursor: pointer;}
+.RajuH1{white-space: nowrap;}
+.mrpDiv{margin-top: 20px;}
+.mrpH1{font-weight: 400;}
+.prDesc{font-weight: 600; margin: 10px 0px;}
+.proDetal{margin-bottom: 10px;}
+.ulDIv ul{margin-bottom: 10px;}
+.shopingTime{font-weight: 600; margin-bottom: 10px;}
+
+.ChooseBtn{padding: 10px 20px; background-color: #D75428; color: white; margin-top: 10px; border: 0px; outline: 0px; cursor: pointer;}
+
+.cursorPo{cursor: pointer;} 
+
+
+
+@media (max-width:928px)
+{
+    .BuyCards{grid-template-columns: 1fr; gap: 30px;
+    
+    }
+
+}
+
+
+
+@media (max-width:482px)
+{
+    .htBtnDiv{flex-direction: column;}
+.BuyParentCard{ margin-bottom: 30px;}
+
+.BuyCards{grid-template-rows: 570px; }
+
+} 
+
